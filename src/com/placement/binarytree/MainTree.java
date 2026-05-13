@@ -19,5 +19,15 @@ public class MainTree {
 
         System.out.println("Post Order traversal:");
         ob.postOrder(ob.getRoot());
+
+        BinarytreeUsingRecur tree = new BinarytreeUsingRecur();
+        tree.insert(10);
+        tree.insert(20);
+        tree.insert(30);
+        tree.insert(40);
+
+        System.out.println("Preorder Traversal:");
+
+        tree.preOrder(tree.root);
     }
 }
